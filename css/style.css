@@ -49,7 +49,8 @@ table {
 
 /* css reset */
 
-*{
+
+body{
     font-family: Noto Sans;
 }
 
@@ -69,24 +70,20 @@ img{
 h1{
     font-size:80px;
     line-height: 94px;
+    border-bottom: 1px solid black;
 }
 
 h2{
     font-size:32px;
     line-height: 43px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
 }
 
 h2 span{
-    font-size:24px;
-    color: #A00404;
-}
-
-h3{
-    font-size:32px;
-}
-
-h3 span{
-    font-size:24px;
+  font-size:24px;
+  line-height: 28px;
+  color: #A00404;
 }
 
 .header img{
@@ -111,13 +108,20 @@ ul li{
     padding-top: 24px;
     padding-bottom: 24px;
     margin-bottom: 72px;
-    display:flex;
-    justify-content: center;
 }
 
 .skillList,.contactList{
     width: 996px;
+    margin: 0 auto;
     text-align: center;
+}
+
+.skillList h2,.contactList h2{
+  border-bottom: 1px solid white;
+}
+
+.skillList h2 span,.contactList h2 span{
+  color:white;
 }
 
 .skillList ul{
@@ -149,10 +153,12 @@ ul li{
 }
 
 .workExp img{
-    width: 90px;
-    height: 90px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.workExp p{
+  width: 642px;
 }
 
 .contact{
