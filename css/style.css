@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset */
+
+*{
+    font-family: Noto Sans;
+}
+
+.en{
+    font-family: Roboto;
+}
+
+img{
+    display:block;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size:80px;
+    line-height: 94px;
+}
+
+h2{
+    font-size:32px;
+    line-height: 43px;
+}
+
+h2 span{
+    font-size:24px;
+    color: #A00404;
+}
+
+h3{
+    font-size:32px;
+}
+
+h3 span{
+    font-size:24px;
+}
+
+.header img{
+    width: 324px;
+    height: 324px;
+    padding: 48px 0 58px;
+}
+
+.profile,.education{
+    margin-bottom: 48px;
+}
+
+ul li{
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 24px;
+}
+
+.skills{
+    background: #415165;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 72px;
+    display:flex;
+    justify-content: center;
+}
+
+.skillList,.contactList{
+    width: 996px;
+    text-align: center;
+}
+
+.skillList ul{
+    display: inline-block;
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 20px;
+    border-left: 1px solid white;
+    padding-bottom: 0px;
+}
+
+.skillList li{
+    padding-bottom: 20px;
+}
+
+.skillList li:last-child{
+    padding-bottom: 0px;
+}
+
+.workExp{
+    margin-bottom: 72px;
+}
+
+.workExp ul{
+    padding-left: 20px;
+    margin-left: 15px;
+    padding-bottom: 0;
+    border-left: 1px solid #96A9C4;
+}
+
+.workExp img{
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    background: #415165;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 72px;
+    display:flex;
+    justify-content: center;
+}
+
+.contactList ul{
+    margin-top: 32px;
+}
+
+.contactList ul li{
+    padding-bottom: 16px;
+}
+
+.contactList .link{
+    display: flex;
+    justify-content: center;
+}
+
+.contactList .link img{
+    margin-right: 24px;
+}
